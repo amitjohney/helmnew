@@ -1,4 +1,4 @@
-apiVersion: v10
+apiVersion: v1
 name: sylva-units-testhelm
 description: Created by Amit
 type: application
