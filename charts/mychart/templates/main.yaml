@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: testchart
+  name: mynewconfig
 data:
-  value: {{ .Values.myval }}
+  color: "red"
+  bgcolor: "{{ .Values.myval }}"
