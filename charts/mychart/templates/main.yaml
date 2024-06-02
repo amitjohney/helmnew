@@ -7,7 +7,6 @@ data:
   color: "red"
   bgcolor: "{{ .Values.myval }}"
 ---
----
 apiVersion: v1
 kind: ConfigMap
 metadata:
