@@ -23,3 +23,11 @@ metadata:
 data:
   color: "green"
   bgcolor: "{{ .Values.myval }}"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fourthconfigfromaimt
+data:
+  color: "green"
+  bgcolor: "{{ .Values.myval }}"
