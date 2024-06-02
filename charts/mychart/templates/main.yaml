@@ -7,15 +7,11 @@ data:
   color: "red"
   bgcolor: "{{ .Values.myval }}"
 ---
+---
 apiVersion: v1
-kind: Pod
+kind: ConfigMap
 metadata:
-  name: mytestpod
-spec:
-  containers:
-  - name: test
-    image: ubuntu
-    command:
-    - "sh"
-    - "-c"
-    - "sleep 1000"
+  name: anotherone
+data:
+  color: "green"
+  bgcolor: "{{ .Values.myval }}"
